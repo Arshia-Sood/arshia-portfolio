@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Arshia Sood — Computer Science Engineering student building practical software, AI and data-driven applications." />
+  <meta name="theme-color" content="#10131c" />
+  <title>Arshia Sood | Software & AI Developer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="ambient ambient-one"></div>
+  <div class="ambient ambient-two"></div>
+  <header class="site-header">
+    <nav class="nav container" aria-label="Main navigation">
+      <a class="brand" href="#home" aria-label="Arshia Sood home"><span class="brand-mark">AS</span><span>arshia<span class="brand-dot">.</span></span></a>
+      <button class="menu-toggle" id="menuToggle" aria-label="Toggle navigation" aria-expanded="false"><span></span><span></span></button>
+      <div class="nav-links" id="navLinks">
+        <a href="#about">About</a><a href="#projects">Projects</a><a href="#skills">Skills</a><a href="#achievements">Achievements</a>
+        <a class="nav-cta" href="#contact">Let's connect <span>↗</span></a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero container" id="home">
+      <div class="hero-copy">
+        <div class="eyebrow"><span class="status-dot"></span> OPEN TO INTERNSHIPS & ENTRY-LEVEL ROLES</div>
+        <p class="hero-kicker">COMPUTER SCIENCE · SOFTWARE · GENERATIVE AI</p>
+        <h1>Building useful things<br>with <span class="gradient-text">code & curiosity.</span></h1>
+        <p class="hero-description">I'm <strong>Arshia Sood</strong>, a Computer Science Engineering student who enjoys solving problems and turning ideas into working applications — from multi-agent AI workflows to data-driven tools.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#projects">Explore my work <span>↓</span></a>
+          <a class="button button-secondary" href="#contact">Get in touch <span>↗</span></a>
+        </div>
+        <div class="hero-meta"><span><i class="meta-line"></i> Based in Mohali, Punjab, India</span><span class="meta-separator">/</span><span>Graduating 2027</span></div>
+      </div>
+      <div class="hero-art" aria-label="Decorative code-inspired graphic">
+        <div class="orbit orbit-outer"></div><div class="orbit orbit-inner"></div>
+        <div class="hero-core"><span class="core-bracket">{ }</span><span class="core-label">BUILD<br>· LEARN<br>· ITERATE</span></div>
+        <div class="float-card float-card-top"><span class="float-icon purple">⌘</span><div><strong>Problem solving</strong><small>500+ LeetCode problems</small></div></div>
+        <div class="float-card float-card-bottom"><span class="float-icon mint">✳</span><div><strong>AI applications</strong><small>Agents · APIs · Data</small></div></div>
+        <div class="orbit-node node-one"></div><div class="orbit-node node-two"></div><div class="orbit-node node-three"></div>
+      </div>
+      <div class="scroll-note"><span></span> SCROLL TO EXPLORE</div>
+    </section>
+
+    <section class="section container" id="about">
+      <div class="section-heading"><p class="section-label">01 / ABOUT</p><h2>Curious by nature.<br><span class="muted-heading">Practical by design.</span></h2></div>
+      <div class="about-grid">
+        <div class="about-copy"><p class="large-copy">I like understanding how systems work — then building something real with that knowledge.</p><p>My foundation is in C++, data structures and algorithms, object-oriented programming, and databases. I'm also exploring Generative AI, retrieval-augmented generation (RAG), and agentic workflows, with a focus on connecting models to useful tools and reliable backends.</p><p>I learn best by building, testing, debugging, and improving projects instead of stopping at theory.</p></div>
+        <div class="about-facts">
+          <div class="fact"><span class="fact-number">01</span><div><strong>Problem solving</strong><p>Consistent practice with data structures, algorithms, and coding challenges.</p></div></div>
+          <div class="fact"><span class="fact-number">02</span><div><strong>Applied AI</strong><p>Building with LangGraph, LangChain, Gemini, and Python APIs.</p></div></div>
+          <div class="fact"><span class="fact-number">03</span><div><strong>Backend foundations</strong><p>Working with FastAPI, Flask, PostgreSQL, Docker, and Git.</p></div></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section projects-section" id="projects">
+      <div class="container">
+        <div class="section-heading heading-row"><div><p class="section-label">02 / SELECTED WORK</p><h2>Projects that turn<br><span class="muted-heading">ideas into systems.</span></h2></div><p class="heading-aside">A few things I've built while learning, experimenting, and solving practical problems.</p></div>
+        <div class="project-grid">
+          <article class="project-card project-featured">
+            <div class="project-topline"><span class="project-index">PROJECT 01</span><span class="project-type">GENERATIVE AI · MULTI-AGENT</span></div>
+            <div class="project-visual travel-visual">
+              <div class="visual-window"><div class="window-bar"><span></span><span></span><span></span><small>travelmate.ai / planner</small></div><div class="travel-screen"><div class="travel-mini-title">Your next adventure</div><div class="travel-route"><span class="route-dot"></span><span class="route-line"></span><span class="route-dot destination"></span></div><div class="route-labels"><span>Origin</span><span>Destination</span></div><div class="itinerary-lines"><i></i><i></i><i></i></div><div class="agent-pills"><span>Flight agent</span><span>Hotel research</span><span>Itinerary</span></div></div></div>
+              <div class="visual-orb"></div>
+            </div>
+            <div class="project-content"><h3>TravelMate AI</h3><p class="project-summary">Multi-Agent Travel Planner</p><p>An AI-powered travel planner that accepts natural-language trip requests and brings together flight suggestions, hotel research, and day-by-day itinerary planning in one experience.</p>
+              <ul class="project-highlights"><li>Orchestrates dedicated agents with LangGraph and LangChain.</li><li>Connects research and flight tools with a FastAPI web application.</li><li>Uses PostgreSQL for state persistence.</li></ul>
+              <div class="tag-list"><span>Python</span><span>LangGraph</span><span>LangChain</span><span>Gemini</span><span>FastAPI</span><span>PostgreSQL</span></div>
+              <div class="project-links"><a href="https://travel-agent-t4ma.onrender.com/" target="_blank" rel="noreferrer">Live demo <span>↗</span></a><a href="https://github.com/Arshia-Sood" target="_blank" rel="noreferrer">GitHub profile <span>↗</span></a></div>
+            </div>
+          </article>
+          <article class="project-card">
+            <div class="project-topline"><span class="project-index">PROJECT 02</span><span class="project-type">MACHINE LEARNING</span></div>
+            <div class="project-visual trust-visual"><div class="review-card"><div class="review-header"><span class="review-avatar">R</span><div><b>Review signal analysis</b><small>Example review patterns</small></div><span class="review-dots">•••</span></div><div class="review-stars">★★★★★</div><div class="review-skeleton"><i></i><i></i><i></i></div><div class="signal-row"><span class="signal-pill">Sentiment mismatch</span><span class="signal-indicator">↗</span></div><div class="signal-bars"><i></i><i></i><i></i><i></i><i></i></div></div><div class="trust-ring"></div></div>
+            <div class="project-content"><h3>TrustLens</h3><p class="project-summary">Hybrid Review Authenticity Detection</p><p>A review-analysis system combining rule-based signals and anomaly detection to flag unusual product-review patterns for further inspection.</p>
+              <ul class="project-highlights"><li>Combines rule-based scoring with Isolation Forest.</li><li>Considers rating–sentiment mismatch and review patterns.</li><li>Packages the workflow with a Flask interface and Docker.</li></ul>
+              <div class="tag-list"><span>Python</span><span>Pandas</span><span>scikit-learn</span><span>VADER</span><span>Flask</span><span>Docker</span><span>PostgreSQL</span></div>
+              <div class="project-links"><a href="https://github.com/Arshia-Sood/Authenticity-Detection-System" target="_blank" rel="noreferrer">View repository <span>↗</span></a></div>
+            </div>
+          </article>
+        </div>
+        <p class="project-note">Project descriptions reflect the current implementation. Explore the repositories for code and implementation details.</p>
+      </div>
+    </section>
+
+    <section class="section container" id="skills">
+      <div class="section-heading"><p class="section-label">03 / TOOLKIT</p><h2>Tools I use to<br><span class="muted-heading">make things happen.</span></h2></div>
+      <div class="skills-layout">
+        <div class="skill-intro"><p>My toolkit is growing as I build projects. These are the technologies and concepts I have worked with or studied.</p><div class="code-chip"><span class="code-green">const</span> mindset = <span class="code-purple">"keep building"</span>;</div></div>
+        <div class="skill-groups">
+          <div class="skill-group"><div class="skill-group-title"><span>01</span><h3>Programming</h3></div><div class="skill-tags"><span>C++</span><span>C</span><span>Python</span><span>SQL</span></div></div>
+          <div class="skill-group"><div class="skill-group-title"><span>02</span><h3>AI & Machine Learning</h3></div><div class="skill-tags"><span>LangGraph</span><span>LangChain</span><span>Generative AI</span><span>RAG concepts</span><span>scikit-learn</span><span>VADER</span></div></div>
+          <div class="skill-group"><div class="skill-group-title"><span>03</span><h3>Backend & Data</h3></div><div class="skill-tags"><span>FastAPI</span><span>Flask</span><span>PostgreSQL</span><span>Pandas</span><span>NumPy</span></div></div>
+          <div class="skill-group"><div class="skill-group-title"><span>04</span><h3>Tools & Foundations</h3></div><div class="skill-tags"><span>Git</span><span>Docker</span><span>OOP</span><span>DSA</span><span>DBMS</span><span>REST APIs</span></div></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section achievements-section" id="achievements">
+      <div class="container">
+        <div class="section-heading"><p class="section-label">04 / MILESTONES</p><h2>Progress worth<br><span class="muted-heading">keeping track of.</span></h2></div>
+        <div class="achievement-grid">
+          <div class="achievement-card main-achievement"><span class="achievement-icon">⌁</span><strong class="achievement-big">500+</strong><h3>LeetCode problems</h3><p>Practiced problem solving across data structures and algorithms.</p><a href="https://leetcode.com/" target="_blank" rel="noreferrer">LeetCode <span>↗</span></a></div>
+          <div class="achievement-card"><span class="achievement-number">01</span><div><h3>Smart India Hackathon</h3><p>Qualified through the internal round in 2025.</p></div><span class="achievement-arrow">↗</span></div>
+          <div class="achievement-card"><span class="achievement-number">02</span><div><h3>MindMatrix</h3><p>Participated in the 2026 coding contest.</p></div><span class="achievement-arrow">↗</span></div>
+          <div class="achievement-card"><span class="achievement-number">03</span><div><h3>Debug Bug Battle</h3><p>Participated at Parivartan 2025.</p></div><span class="achievement-arrow">↗</span></div>
+        </div>
+        <div class="certifications"><p class="section-label">CERTIFICATIONS & TRAINING</p><div class="cert-list"><div><span class="cert-mark">✳</span><p><strong>Machine Learning Using Python</strong><small>Grazitti Interactive · 4-week summer training</small></p></div><div><span class="cert-mark">◇</span><p><strong>AWS Academy Graduate</strong><small>Cloud Security Foundations · Data Engineering</small></p></div><div><span class="cert-mark">◎</span><p><strong>YUVA AI for All</strong><small>FutureSkills Prime / NASSCOM</small></p></div></div></div>
+      </div>
+    </section>
+
+    <section class="section education-section container" id="education">
+      <div class="section-heading"><p class="section-label">05 / EDUCATION</p><h2>Learning is part<br><span class="muted-heading">of the process.</span></h2></div>
+      <div class="education-card"><div class="education-year">2023 — 2027</div><div class="education-main"><h3>B.Tech, Computer Science Engineering</h3><p>Chandigarh Engineering College, Landran</p></div><div class="education-score"><strong>83%</strong><span>Current academic record</span></div></div>
+      <div class="education-card education-secondary"><div class="education-year">PRE-UNIVERSITY</div><div class="education-main"><h3>Class XII · CBSE</h3><p>Intermediate education</p></div><div class="education-score"><strong>77.8%</strong></div></div>
+      <div class="education-card education-secondary"><div class="education-year">SCHOOL</div><div class="education-main"><h3>Class X · ICSE</h3><p>Secondary education</p></div><div class="education-score"><strong>86.67%</strong></div></div>
+    </section>
+
+    <section class="contact-section" id="contact">
+      <div class="container contact-inner"><p class="section-label">06 / CONTACT</p><h2>Have a role, a problem,<br>or an idea in mind?</h2><p class="contact-copy">I'm open to internships and entry-level opportunities in software development, backend engineering, and AI application development.</p><a class="button button-primary contact-button" href="mailto:YOUR_EMAIL_HERE">Email me <span>↗</span></a><div class="contact-links"><a href="https://github.com/Arshia-Sood" target="_blank" rel="noreferrer">GitHub ↗</a><a href="YOUR_LINKEDIN_URL_HERE" target="_blank" rel="noreferrer">LinkedIn ↗</a><a href="YOUR_RESUME_FILE_HERE" target="_blank" rel="noreferrer">Resume ↗</a></div><div class="contact-footer"><span>© <span id="year"></span> Arshia Sood</span><span>Built with HTML, CSS & JavaScript</span><a href="#home">Back to top ↑</a></div></div>
+    </section>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
